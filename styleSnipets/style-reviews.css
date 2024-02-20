@@ -1,0 +1,45 @@
+/*Reviews*/
+.item .name img{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.item h3{
+    font-size: 1em;
+}
+
+.item h3 span{
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.item p{
+    font-size: .9em;
+}
+
+.stars{
+    color: rgb(255, 196, 0);
+}
+
+
+
+/*CS-REVIEW-003*/
+
+.contentItems{
+    border-radius: 1em;
+    background-color: #b5b5b5;
+}
+
+.contentItems .item{
+    background-color: #fff;
+    padding: 2em 1em;
+    border-radius: 1em;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px){
+    
+}

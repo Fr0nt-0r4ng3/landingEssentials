@@ -1,0 +1,96 @@
+ /* Esta clase pinta cada label para diferenciar uno del otro*/
+ label{
+    background-color: rgb(247, 247, 247);
+}
+
+footer{
+    background-color: #d9d9d9;
+}
+
+footer .logo{
+    max-width: 150px;
+    width: 100%;
+}
+
+footer p{
+    font-size: .9em;
+    margin-bottom: 0;
+}
+
+/*Snipets con iconos RRSS*/
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 .2em;
+    top: 0;
+    transition: .3s ease;
+
+    /* cambiamos el color de los circulos de los iconos */
+    background-color: #909090;
+}
+
+footer ul li:hover{
+    top: -.2em;
+}
+
+footer ul li a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    /* cambiamnos el color de los iconos */
+    color: #fff;
+}
+
+footer ul li a:hover{
+    /* cambiamos el color cuando pasamos el cursor */
+    color: #000 !important;
+}
+
+
+/*Snipets con iconos de Dowload APP*/
+
+footer .download_app img{
+    max-width: 150px;
+    width: 100%;
+    display: block;
+    margin-top: .5em;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 575px){
+    footer .content_enlaces{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 575px){
+    footer h5, footer .download_app{
+        display: block;
+        width: 100%;
+    }
+
+    footer .download_app img{
+        margin: .5em auto;
+    }
+
+    
+}

@@ -1,0 +1,116 @@
+/* Estilos TY */
+.contentTY{
+    min-height: 100vh;
+}
+
+.contentTY .logo{
+    max-width: 400px;
+    width: 100%;
+    margin: 1em auto;
+    display: block;
+}
+
+/*Redes sociales*/
+
+.redes-sociales{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.redes-sociales li{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 .2em;
+    top: 0;
+    transition: .3s ease;
+
+    /* cambiamos el color de los circulos de los iconos */
+    background-color: #909090;
+}
+
+.redes-sociales li:hover{
+    top: -.2em;
+}
+
+.redes-sociales li a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    /* cambiamnos el color de los iconos */
+    color: #fff;
+}
+
+.redes-sociales li a:hover{
+    /* cambiamos el color cuando pasamos el cursor */
+    color: #000 !important;
+}
+
+
+/*cs-ty-004-footer*/
+
+.TyFooter{
+    min-height: 80vh !important;
+    /* modificar el tamaño para que llegue al alto deseado 
+    dependiendo el snipet de footer */
+}
+
+footer{
+    background-color: #a9a9a9;
+}
+
+footer .logo-footer-ty{
+    max-width: 200px !important;
+    width: 100% !important;
+    margin: initial !important;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 .2em;
+    top: 0;
+    transition: .3s ease;
+
+    /* cambiamos el color de los circulos de los iconos */
+    background-color: #909090;
+}
+
+footer ul li:hover{
+    top: -.2em;
+}
+
+footer ul li a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    /* cambiamnos el color de los iconos */
+    color: #fff;
+}
+
+footer ul li a:hover{
+    /* cambiamos el color cuando pasamos el cursor */
+    color: #000 !important;
+}

@@ -1,0 +1,60 @@
+ /* Esta clase pinta cada label para diferenciar uno del otro*/
+ label{
+    background-color: rgb(247, 247, 247);
+}
+
+/* BTN FORM */
+
+.bg-content{
+    background-color: #e6e6e6;
+}
+
+
+ .btn_form {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+}
+
+ .btn_form:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*CS-content-006*/
+
+.content-cs-006{
+    width: 32%;
+    /*Podemos modificar el valor del width para integrar lso elementos necesarios en una linea
+    siempre y cuando la suma total sea iagual 100%*/
+}
+
+.content-cs-006 .img-fluid{
+    max-width: 100px;
+    width: 100%;
+}
+
+
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 768px){
+    .content-cs-006{
+        width: 100%;
+    }
+}

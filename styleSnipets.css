@@ -1,5 +1,12 @@
-body{
-    background-color: aqua;
-    text-align: center;
-    font-size: 20em;
-}
+@import url(./styleSnipets/style-headers.css);
+@import url(./styleSnipets/style-footers.css);
+@import url(./styleSnipets/style-heros.css);
+@import url(./styleSnipets/style-content.css);
+@import url(./styleSnipets/style-forms.css);
+@import url(./styleSnipets/style-tables.css);
+@import url(./styleSnipets/style-reviews.css);
+@import url(./styleSnipets/style-videos.css);
+@import url(./styleSnipets/style-location.css);
+@import url(./styleSnipets/style-thankyou.css);
+@import url(./styleSnipets/style-masonry.css);
+@import url(./styleSnipets/style-accordion.css);

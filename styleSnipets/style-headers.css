@@ -1,0 +1,68 @@
+/*Headers*/
+
+    /* Esta clase pinta cada label para diferenciar uno del otro*/
+    label{
+        background-color: rgb(247, 247, 247);
+    }
+
+    header{
+        background-color: #d9d9d9;
+    }
+
+    header .logo{
+        max-width: 150px;
+        width: 100%;
+    }
+
+    header .cta_header{
+        /* contolamos tamanio del cta */
+        display: inline-block;
+        max-width: 200px;
+        width: 100%;
+        padding: .5em;
+
+        /* controlamos el estilo del cta */
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .9em;
+        border-radius: 1.5em;
+        background-color: #DFDFDF;
+        border: 1px solid #000;
+        color: gray;
+        transition: .3s ease;
+    }
+
+    header .cta_header:hover{
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    .nav-link{
+        font-size: .9em;
+        text-decoration: underline;
+    }
+
+    .nav-link:hover{
+        color: #000 !important;
+    }
+
+
+
+
+    /*Responsive headers*/
+
+    @media only screen and (max-width:480px){
+
+        header.cs-nav-003 .logo{
+            margin: 0 auto;
+        }
+
+        header.cs-nav-003 .cta_header{
+            max-width: 150px;
+            padding: .2em;
+
+            margin: 1em auto 0 auto;
+        }
+    }
+

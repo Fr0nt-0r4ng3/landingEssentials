@@ -1,0 +1,254 @@
+/*Hero Banners*/
+
+/* Esta clase pinta cada label para diferenciar uno del otro*/
+label {
+    background-color: rgb(247, 247, 247);
+}
+
+/*CS-HERO-002*/
+.cs-hero-002 {
+    min-height: 100vh;
+    /* cambiamos el backgroun image en el atributo URL */
+    background-image: url(https://fakeimg.pl/1920x1080/);
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Quitar las propiedades si es que no se necesita el BG*/
+.cs-hero-002 h1 {
+    background-color: #fff;
+}
+
+.cs-hero-002 p {
+    background-color: #fff;
+}
+
+.cs-hero-002 .cta_hero {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cs-hero-002 .cta_hero:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*CS-HERO-003*/
+
+.cs-hero-003{
+    min-height: 100vh;
+    background-color: #e3e3e3;
+}
+
+.cs-hero-003 .img-fluid{
+    /*Controlamos el tamaño de la imagen*/
+    max-width: 400px;
+    width: 100%;
+}
+
+.cs-hero-003 .cta_hero {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cs-hero-003 .cta_hero:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*CS-HERO-005*/
+.cs-hero-005{
+    /* controlamos el alto del bg */
+    min-height: 50vh;
+
+    /* controlamos la imagen y la posicion del bg */
+    background-image: url(https://fakeimg.pl/1920x650/);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.cs-hero-005 .logo{
+    /* quitar esta propiedad si no se necesita */
+    border: 1px solid #000;
+}
+
+
+/*CS-HERO-006*/
+
+.cs-hero-006{
+    background-color: #e3e3e3;
+    
+}
+
+.cs-hero-006 .cta_hero {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cs-hero-006 .cta_hero:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+
+/*CS-HERO-007*/
+
+.cs-hero-007{
+    background-color: #e3e3e3;
+    
+}
+
+.cs-hero-007 .cta_hero {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cs-hero-007 .cta_hero:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*CS-HERO-008*/
+
+/*Quitar las propiedades si es que no se necesita el BG*/
+
+.cs-hero-008 {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.cs-hero-008::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+}
+
+.cs-hero-008 iframe{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+
+}
+
+.cs-hero-008 h1 {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.cs-hero-008 p {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.cs-hero-008 .cta_hero {
+    position: relative;
+    z-index: 1;
+
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cs-hero-008 .cta_hero:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+
+
+
+/*Responsive headers*/
+
+@media only screen and (max-width:767px) {
+    .cs-hero-008, .cs-hero-008::after,.cs-hero-008 iframe{
+        min-height: 50vh;
+    }
+
+}

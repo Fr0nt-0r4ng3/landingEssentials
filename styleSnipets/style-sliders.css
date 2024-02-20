@@ -1,0 +1,59 @@
+/*Sliders*/
+
+.slider{
+    position: relative;
+}
+
+.owl-theme .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.owl-carousel .owl-nav button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button span{
+    font-size: 3em;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next span{
+    right: 10%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+    
+}
+
+.owl-carousel .owl-nav button.owl-prev span{
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+/* cs-slider-002 */
+
+.cs-slider-002 .item img{
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,27 @@
+/*CARDS*/
+
+.cta_card {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: gray;
+    transition: .3s ease;
+}
+
+.cta_card:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+

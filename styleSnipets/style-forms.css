@@ -1,0 +1,116 @@
+ /* Esta clase pinta cada label para diferenciar uno del otro*/
+ label{
+    background-color: rgb(247, 247, 247);
+}
+
+/* LABEL FORM */
+.label_input{
+    background-color: transparent !important;
+    font-size: 1.1em;
+}
+
+.form-check-label{
+    background-color: transparent !important;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 5px;
+}
+
+
+/* BTN FORM */
+
+.bg-form{
+    background-color: #e6e6e6;
+}
+
+
+ .btn_form {
+    /* contolamos tamanio del cta */
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: .5em;
+
+    /* controlamos el estilo del cta */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    border-radius: 1.5em;
+    background-color: #DFDFDF;
+    border: 1px solid #000;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+}
+
+ .btn_form:hover {
+    /* controlamos el cambio de color hover */
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*style-form-full*/
+.style-form-full{
+    min-height: 100vh;
+}
+
+.style-form-full .logo_desk, .logo_mov{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid #fff; /*quitar esta propiedad para eleminiar el borde del logo*/
+}
+
+.style-form-full .logo_mov{
+    display: none;
+}
+
+
+.style-form-full .fondo_columna{
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.style-form-full .bg_mov{
+    background-image: none;
+}
+
+
+.style-form-full .bg_desk{
+    background-image: url(https://fakeimg.pl/1920x2000/);
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 991px){
+    .style-form-full .fondo_columna{
+        min-height: 40vh;
+    }
+
+    .style-form-full .bg_desk{
+        background-image: none;
+    }
+
+    .style-form-full .bg_mov{
+        background-image: url(https://fakeimg.pl/1920x650/);
+    }
+
+    .style-form-full .logo_desk{
+        display: none;
+    }
+
+    .style-form-full .logo_mov{
+        display: block;
+    }
+
+    
+}
+
+@media only screen and (max-width: 650px){
+    .cs-form-002 .form-check{
+        width: 100%;
+    }
+}

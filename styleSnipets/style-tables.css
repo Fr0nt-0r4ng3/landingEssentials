@@ -1,0 +1,51 @@
+/*tABLE*/
+
+.contentTable{
+    background-color: #cccccc;
+    border-radius: .5em;
+
+    /* Modificamos el máximo alto que tendrá nuestra tabla */
+    overflow-y: scroll;
+    max-height: 500px;
+
+}
+
+.noScroll{
+    overflow-y: initial !important;
+    max-height: initial !important;
+}
+
+.contentTable table th, .contentTable table td{
+    padding: 1em 0.5em;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.search{
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+
+.iconSearch{
+    background-color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    /* cambiamos el color del fondo y borde del icono */
+    
+    padding: .5em;
+    border-radius: 0 1em 1em 0;
+    box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+
+.iconSearch i{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px){
+    .contentTable{
+        overflow-x: scroll;
+    }
+}
